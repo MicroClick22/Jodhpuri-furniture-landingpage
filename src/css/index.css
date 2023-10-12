@@ -281,14 +281,14 @@ header .container2 .account i:hover {
   font-size: 16px !important;
 }
 .header-callicon img , .header-callicon a {
- width: 22px;
+ width: 25px;
  font-size: 20px;
  font-weight:600;
 } 
-.call-icon{
+/* .call-icon{
   fill: #E95B1B;
   color: #E95B1B;
-}
+} */
 @media only screen and (min-width: 200px) and (max-width: 900px){
 
 .discount {

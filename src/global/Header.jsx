@@ -30,8 +30,8 @@ function Header() {
                 </div> */}
                 <div className="contact d-flex">
                     <div className="me-3 header-callicon">
-                            <img src="../images/phoneIcon.svg" alt="" className="img-fluid call-icon " />
-                        {/* <img src="../images/phone-50.png" alt="" className="img-fluid" />  */}
+                            {/* <img src="../images/phoneIcon.svg" alt="" className="img-fluid call-icon " /> */}
+                        <img src="../images/phone-50.png" alt="" className="img-fluid" /> 
                         
                         <a href="tel:9929946846" className=" inter"><span className="color-6">+91 99299 46846</span></a>
                     </div>
