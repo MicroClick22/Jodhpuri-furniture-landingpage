@@ -154,7 +154,6 @@ a {
 }
 
 header {
-  margin-top: 17px;
   border-bottom: 1px solid #e5e5e5;
 }
 header .container2 .search {
@@ -278,30 +277,30 @@ header .container2 .account i:hover {
   color: black;
 }
 
+.contact {
+  font-size: 16px !important;
+}
+.header-callicon img , .header-callicon a {
+ width: 22px;
+ font-size: 20px;
+ font-weight:600;
+} 
+.call-icon{
+  fill: #E95B1B;
+  color: #E95B1B;
+}
 @media only screen and (min-width: 200px) and (max-width: 900px){
 
 .discount {
     display: none!important;
 }
-.search{
-  display: none !important;
-}
-.account{
-  display: none !important;
-}
-header .container2 .store {
-  line-height: 1;
-  height: 56px;
-  margin: auto 0px;
-  margin-left: 50%;
-  padding: 10px 0px;
-  color: #767676;
-  transition: 300ms ease-in;
-}
-header .container2 .store span {
- display: none;
-}
 
+.header-helpcenter{
+  display: none;
+}
+.contact {
+  font-size: 16px !important;
+}
 .font-16 {
   font-size: 11px;
 }

@@ -7,7 +7,7 @@ function Header() {
             <header>
                 <div className="container-fluid container2">
                     <div className="container">
-                    <div  className="d-flex justify-content-between py-2">
+                    <div  className="d-flex justify-content-between align-items-center py-3">
                     <Link to='/'>
                         <img src="../images/logo.svg" alt="" className="img-fluid" />
                     </Link>
@@ -29,12 +29,16 @@ function Header() {
                     <img src="../images/cart.svg" className="me-0 img-fluid" />
                 </div> */}
                 <div className="contact d-flex">
-                    <div className="me-3">
-                        <img src="../images/phoneIcon.svg" alt="" className="img-fluid" /> <a href="tel:9929946846" className="font-13 inter">+91 99299 46846</a>
+                    <div className="me-3 header-callicon">
+                            <img src="../images/phoneIcon.svg" alt="" className="img-fluid call-icon " />
+                        {/* <img src="../images/phone-50.png" alt="" className="img-fluid" />  */}
+                        
+                        <a href="tel:9929946846" className=" inter"><span className="color-6">+91 99299 46846</span></a>
                     </div>
+                    
+                    <div className=" header-helpcenter">
                     |
-                    <div className="ms-3">
-                        <img src="../images/help-circle.svg" alt="" className="img-fluid" /> <a href="mailto:info@jodhpurifurniture.com" className="font-13 inter">Help Center</a>
+                        <img src="../images/help-circle.svg" alt="" className=" ms-3 img-fluid" /> <a href="mailto:info@jodhpurifurniture.com" className="font-13 inter">Help Center</a>
                     </div>
                 </div>
 
